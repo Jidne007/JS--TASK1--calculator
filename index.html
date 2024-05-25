@@ -7,36 +7,38 @@
    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1 class="text-3xl text-center py-5">Calculator</h1>
+    <h1 class="text-[30px] font-bold text-center text-[#555] py-5">Calculator</h1>
 
-    <div class="calculator-body w-[500px] bg-black mx-auto rounded-lg shadow-lg p-5">
-         <div class="calculator-screen w-full bg-lime-600 h-[100px]  rounded-md shadow-inner shadow flex items-center p-3">
-              <h3 id="screen" class="text-4xl"></h3>
+    <div class="calculator-body w-[450px] h-[700px] bg-black mx-auto rounded-lg shadow-lg p-10 ">
+         <div class="calculator-screen truncate w-full bg-black-400 h-[200px] mb-[20px]  rounded-md shadow-inner shadow flex items-center p-3">
+              <h3 id="screen" class="text-[60px] text-white"></h3>
          </div>
 
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">C</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">1</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">2</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">3</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">+</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">-</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">4</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">5</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">6</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">*</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">/</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">7</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">8</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">9</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">0</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">.</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">00</button>
-         <button class="rounded-full h-[50px] w-[50px] bg-slate-300 m-2">=</button>
+         <button class="rounded-full h-[70px] text-[25px] w-[70px] text-[#fff] mb-2 font-bold bg-[#555] m-2">AC</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">1</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">2</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#FBAC11] m-2">+</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">3</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">4</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">5</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#FBAC11] m-2">-</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">6</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">7</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">8</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#FBAC11] m-2">*</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">.</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">9</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">0</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#FBAC11] m-2">/</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">00</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">000</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#AAAAAA] m-2">=</button>
+         <button class="rounded-full h-[70px] text-[30px] w-[70px] text-[#E2E8F0] mb-2 font-bold bg-[#FBAC11] m-2">%</button>
          
 
     </div>
 
-
-    <script src="index.js"></script>
+     <script src="./index.js"></script>
+    
 </body>
 </html>
